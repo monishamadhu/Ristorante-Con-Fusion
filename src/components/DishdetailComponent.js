@@ -38,7 +38,7 @@ class CommentForm extends Component {
                         <LocalForm onSubmit={(values) => this.handleSubmit(values)}>
                             <Row className="form-group">
                                 <Label htmlFor="rating" md={2}>Rating</Label>
-                                <Col md={{ size: 3, offset: 1 }}>
+                                <Col md={{ size: 3 }}>
                                     <Control.select model=".rating" id="rating" name="rating"
                                         className="form-control">
                                         <option>1</option>
